@@ -1,0 +1,276 @@
+//main: ../style.less
+
+@media(max-width: 1200px) {
+    .container-fluid {
+        padding: 0 15px;
+    }
+
+    // COMPANY-INFO
+
+    .company-info-item {
+        width: 300px;
+    }
+
+    // CLIENTS
+
+    .clients-item-container {
+        padding: 0 15px;
+    }
+
+    // CONTACT
+
+    .contact-us {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 1100px) {
+    //WORK
+
+    .work-inner {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+    }
+    
+    .item-info {
+        top: 205px;
+        background-color: rgba(4,163,206,0.7);
+    }
+
+    .work-item {
+        width: 32%;
+        height: 500px; 
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 992px) {
+
+    br {
+        display: none;
+    }
+
+    //COMPANY
+
+    .company-info-p {
+        width: 100%;
+    }
+
+
+    // CONTACT
+
+
+    .contact-us {
+        padding: 0 15px;
+        width: 380px;
+    }
+
+    .contact-us-form {
+        width: 100%;
+    }
+
+    .contact-input {
+        width: 100%;
+    }
+
+    // ABOUT
+
+    .about-us {
+        width: 380px;
+        padding: 0 15px;
+    }
+    
+    .about-p {
+        width: 100%;
+    }
+
+    // WORK
+
+    .company-info-item:nth-child(2) {
+        margin: 0 30px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    // COMPANY-INFO
+
+    .company-info-item {
+        width: 30%;
+        margin-bottom: 30px!important;
+    }
+
+    .company-info-p {
+        width: 100%;
+    }
+
+    // CLIENTS
+
+    .clients {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .clients-info {
+        width: 100%;
+    }
+
+    .clients-info-p {
+        width: 100%;
+    }
+
+    // WORK
+
+    .work-inner {
+        flex-wrap: wrap;
+    }
+
+    .work-item {
+        width: 33.3333%;
+        height: 400px;
+    }
+
+    .work-inner {
+        height: auto;
+    }
+
+
+    .item-info {
+        height: 175px;
+        padding-top: 15px;
+        top: revert;
+        // padding: 0 15px;
+        bottom: 0;
+        background-color: rgba(4, 163, 206, .7);
+    }
+
+    .item-info-h4 {
+        margin-bottom: 15px;
+    }
+
+    .item-info-p {
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    
+    .work-inner {
+        justify-content: space-between;
+    }
+
+    .work-item{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        &:hover .item-info {
+            top: revert;
+        }
+    }
+
+    
+
+    .header-menu {
+        position: absolute;
+        right: 0;
+        top: 90px;
+        height: 100%;
+        z-index: 99;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s ease-in-out;
+        width: 0;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .active-menu {
+        width: 40%;
+    }
+
+    .header-li {
+        margin-bottom: 10px;
+    }
+
+    .header-menu-img {
+        display: block;
+    }
+
+    .company-info-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-info-item {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .clients-item-container {
+        flex-wrap: wrap;
+    }
+
+    .clients-item {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .contact-inner {
+        flex-wrap: wrap;
+    }
+
+    .about-us {
+        margin: auto;
+    }
+
+    .contact-us {
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+
+@media(max-width: 576px) {
+
+    .intro {
+        padding-top: 100px;
+    }
+
+    .intro-inner {
+        padding-top: 0px;
+    }
+    
+    .intro-p {
+        font-size: 13px;
+    }
+
+    .intro-h1 {
+        font-size: 28px;
+    }
+
+    .intro-btn {
+        padding: 10px 5px;
+        border: 1px solid #fff;
+    }
+
+
+    .item-info {
+        height: 260px;
+    }
+
+
+    .clients {
+        padding-bottom: 100px;
+    }
+
+
+    .footer-inner {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .footer-icon-li {
+        margin: 20px;
+    }
+}
